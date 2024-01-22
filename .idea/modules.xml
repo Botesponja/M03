@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/AdivinaNumero/AdivinaNumero.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/AdivinaNumero/AdivinaNumero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/AugmentSou/AugmentSou.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/AugmentSou/AugmentSou.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF2-Recursivitat/Bitlles/Bitlles.iml" filepath="$PROJECT_DIR$/UF2/NF2-Recursivitat/Bitlles/Bitlles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF2-Recursivitat/CalculPotenciaRecursiu/CalculPotenciaRecursiu.iml" filepath="$PROJECT_DIR$/UF2/NF2-Recursivitat/CalculPotenciaRecursiu/CalculPotenciaRecursiu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF1. Modularitat/ClashRoyale/ClashRoyale.iml" filepath="$PROJECT_DIR$/UF2/NF1. Modularitat/ClashRoyale/ClashRoyale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/ClashRoyale/ClashRoyale1.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/ClashRoyale/ClashRoyale1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/ComprobacionPares/ComprobacionPares.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/ComprobacionPares/ComprobacionPares.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/Ex1-Matrius/Ex1-Matrius.iml" filepath="$PROJECT_DIR$/UF1/Ex1-Matrius/Ex1-Matrius.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Ex1_pt1/Ex1_pt1.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Ex1_pt1/Ex1_pt1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF1. Modularitat/Ex2MayorEdad/Ex2MayorEdad.iml" filepath="$PROJECT_DIR$/UF2/NF1. Modularitat/Ex2MayorEdad/Ex2MayorEdad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Ex2_pt2/Ex2_pt2.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Ex2_pt2/Ex2_pt2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF1. Modularitat/Ex3MenorNumero/Ex3MenorNumero.iml" filepath="$PROJECT_DIR$/UF2/NF1. Modularitat/Ex3MenorNumero/Ex3MenorNumero.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Ex3_pt1/Ex3_pt1.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Ex3_pt1/Ex3_pt1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF1. Modularitat/Ex4PedirValor/Ex4PedirValor.iml" filepath="$PROJECT_DIR$/UF2/NF1. Modularitat/Ex4PedirValor/Ex4PedirValor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF1. Modularitat/Ex5MillasKm/Ex5MillasKm.iml" filepath="$PROJECT_DIR$/UF2/NF1. Modularitat/Ex5MillasKm/Ex5MillasKm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF2(MATRIUS)/ExArraysBidimensionalsMaquinaExpendedora/ExArraysBidimensionalsMaquinaExpendedora.iml" filepath="$PROJECT_DIR$/UF1/NF2(MATRIUS)/ExArraysBidimensionalsMaquinaExpendedora/ExArraysBidimensionalsMaquinaExpendedora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/ExempleCajasNormalesRarasyEpicas/ExempleCajasNormalesRarasyEpicas.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/ExempleCajasNormalesRarasyEpicas/ExempleCajasNormalesRarasyEpicas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici11/Exercici11.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici11/Exercici11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici2/Exercici2.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici2/Exercici2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici3/Exercici3.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici3/Exercici3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici4/Exercici4.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici4/Exercici4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici5/Exercici5.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici5/Exercici5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici9/Exercici9.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici9/Exercici9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici_10_Bucles/Exercici_10_Bucles.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici_10_Bucles/Exercici_10_Bucles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici_11_Bucles/Exercici_11_Bucles.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici_11_Bucles/Exercici_11_Bucles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF1. Modularitat/Exercici_21_Funcions/Exercici_21_Funcions.iml" filepath="$PROJECT_DIR$/UF2/NF1. Modularitat/Exercici_21_Funcions/Exercici_21_Funcions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici_4_Bucles/Exercici_4_Bucles.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Exercici_4_Bucles/Exercici_4_Bucles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/FIFA/FIFA.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/FIFA/FIFA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF2-Recursivitat/FactorialRecursiu/FactorialRecursiu.iml" filepath="$PROJECT_DIR$/UF2/NF2-Recursivitat/FactorialRecursiu/FactorialRecursiu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/FirstProgramVariables/FirstProgramVariables.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/FirstProgramVariables/FirstProgramVariables.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF1. Modularitat/HelloWorldFuncion/HelloWorldFuncion.iml" filepath="$PROJECT_DIR$/UF2/NF1. Modularitat/HelloWorldFuncion/HelloWorldFuncion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/M03.iml" filepath="$PROJECT_DIR$/.idea/M03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF2(MATRIUS)/MatriusBidimensionals/MatriusBidimensionals.iml" filepath="$PROJECT_DIR$/UF1/NF2(MATRIUS)/MatriusBidimensionals/MatriusBidimensionals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/MesAño/MesAño.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/MesAño/MesAño.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF2-Recursivitat/NumeroAlRevesRecursivo/NumeroAlRevesRecursivo.iml" filepath="$PROJECT_DIR$/UF2/NF2-Recursivitat/NumeroAlRevesRecursivo/NumeroAlRevesRecursivo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF2-Recursivitat/PotesAranyes8/PotesAranyes8.iml" filepath="$PROJECT_DIR$/UF2/NF2-Recursivitat/PotesAranyes8/PotesAranyes8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/RandomExemples/RandomExemples.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/RandomExemples/RandomExemples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/RandomValoresPositivosNegativos/RandomValoresPositivosNegativos.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/RandomValoresPositivosNegativos/RandomValoresPositivosNegativos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Salario/Salario.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Salario/Salario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF2-Recursivitat/SumaEntreDosNumerosRecursivos/SumaEntreDosNumerosRecursivos.iml" filepath="$PROJECT_DIR$/UF2/NF2-Recursivitat/SumaEntreDosNumerosRecursivos/SumaEntreDosNumerosRecursivos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Switch/Switch.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/Switch/Switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF2-Recursivitat/TurroRecursiu/TurroRecursiu.iml" filepath="$PROJECT_DIR$/UF2/NF2-Recursivitat/TurroRecursiu/TurroRecursiu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/Vehiculo/Vehiculo.iml" filepath="$PROJECT_DIR$/UF2/Vehiculo/Vehiculo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF2-Recursivitat/VirusTriplexRecursiu/VirusTriplexRecursiu.iml" filepath="$PROJECT_DIR$/UF2/NF2-Recursivitat/VirusTriplexRecursiu/VirusTriplexRecursiu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF2(MATRIUS)/WarBattle/WarBattle.iml" filepath="$PROJECT_DIR$/UF1/NF2(MATRIUS)/WarBattle/WarBattle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF2/NF2-Recursivitat/exSumaParellsRecursiu/exSumaParellsRecursiu.iml" filepath="$PROJECT_DIR$/UF2/NF2-Recursivitat/exSumaParellsRecursiu/exSumaParellsRecursiu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/randomUtilidades/randomUtilidades.iml" filepath="$PROJECT_DIR$/UF1/NF1(IF-BUCLES)/randomUtilidades/randomUtilidades.iml" />
+    </modules>
+  </component>
+</project>
