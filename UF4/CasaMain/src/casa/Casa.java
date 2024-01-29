@@ -22,6 +22,10 @@ public class Casa {
         this.hipoteca = hipoteca;
     }
 
+    Casa() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
     public double calcularSuperficieTotal() {
         double superficieTotal = 0;
         for (Estancia estancia : estancies) {
@@ -57,10 +61,22 @@ public class Casa {
         bustia.posarCartes();
     }
 
-    public void realitzarPagamentHipoteca() {
+    public void realitzarPagamentHipoteca(double quantitatAmortitzar) {
         double cuotaMensual = hipoteca.calcularCuotaMensual();
         hipoteca.amortitzar(cuotaMensual);
         System.out.println("Pagament mensual de la hipoteca realitzat. Import pendent: " + hipoteca.getImportPendent());
     }
+
+    public void setBustia(Bustia bustia) {
+        this.bustia = bustia;
+    }
+
+    public void setHipoteca(Hipoteca hipoteca) {
+        this.hipoteca = hipoteca;
+    }
+
+   
+
+ 
 }
 

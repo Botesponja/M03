@@ -25,10 +25,12 @@ public class Hipoteca {
         if (quantitat > 0 && quantitat <= importPendent) {
             importPendent -= quantitat;
         } else if (quantitat > importPendent) {
-            System.out.println("Error: La quantitat a amortitzar no pot ser superior al total pendent.");
+            System.out.println("La quantitat a amortitzar no pot ser superior al total pendent.");
             acabarHipoteca();
         }
     }
+    
+  
 
     private void acabarHipoteca() {
         importPendent = 0;

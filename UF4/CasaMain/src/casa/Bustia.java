@@ -37,4 +37,14 @@ public class Bustia {
     public void posarCartes() {
         this.hiHaCartes = true;
     }
+
+    public double getAmplada() {
+        return amplada;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+    
+    
 }
