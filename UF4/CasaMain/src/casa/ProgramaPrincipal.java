@@ -47,7 +47,6 @@ public class ProgramaPrincipal {
 
                     Estancia novaEstancia = new Estancia(tipusEstancia, llarg, ample, numFinestres);
                     casa.afegirEstancia(novaEstancia);
-                    System.out.println("Nueva estancia agregada.");
                     break;
                 case 2:
                     // Solicitar datos para una nueva caja de correos y agregarla a la casa

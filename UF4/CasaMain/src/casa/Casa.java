@@ -44,6 +44,8 @@ public class Casa {
 
     public void afegirEstancia(Estancia novaEstancia) {
         estancies.add(novaEstancia);
+        System.out.println("Nueva estancia agregada.");
+        System.out.println( "Total estancias: " + estancies.size());
     }
 
     public void netejarBustia() {

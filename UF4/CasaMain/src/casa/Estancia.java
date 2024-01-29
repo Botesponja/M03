@@ -9,17 +9,23 @@ package casa;
  * @author benjamin
  */
 public class Estancia {
-    private String tipus;
+    private Lugar tipus;
     private double llarg;
     private double ample;
     private int numeroFinestres;
 
     public Estancia(String tipus, double llarg, double ample, int numeroFinestres) {
-        this.tipus = tipus;
+        this.tipus = Lugar.valueOf(tipus);
         this.llarg = llarg;
         this.ample = ample;
         this.numeroFinestres = numeroFinestres;
     }
+//    public Estancia(Lugar tipus, double llarg, double ample, int numeroFinestres) {
+//        this.tipus = tipus;
+//        this.llarg = llarg;
+//        this.ample = ample;
+//        this.numeroFinestres = numeroFinestres;
+//    }
 
     public void ferObres(double nouLlarg, double nouAmple) {
         this.llarg = nouLlarg;
