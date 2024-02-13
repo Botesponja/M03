@@ -19,7 +19,7 @@ public class Fuego extends Pokemon{
         if (this.escape()){
             
         
-        System.out.println("Nitrocarga");
+        System.out.println("Llamarada");
         int num =250;
         return num;
         }
