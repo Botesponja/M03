@@ -8,10 +8,12 @@ package pokedex;
  *
  * @author beta1501
  */
-public class Fuego extends Pokemon{
+public final class Fuego extends Pokemon{
 
-    public Fuego(String nom, int fuerza_combate, int life) {
-        super(nom, fuerza_combate, life);
+    public Fuego(String nom, int fuerza_combate) {
+        super(nom, fuerza_combate);
+        
+        this.life = 800;
     }
 
     @Override
@@ -26,5 +28,17 @@ public class Fuego extends Pokemon{
         else
             return 0;
     }
-    
+    @Override
+    public void recibirAtaque(Pokemon pok) {
+         int ataque;
+        if (pok instanceof Normal || pok instanceof Dragon){
+          ataque = pok.ataque()*2;
+           
+        }
+        else{
+            ataque = pok.ataque();
+        }
+        System.out.println(this.nom + "Recibo ataque " + ataque);
+        this.life -=ataque;
+    }
 }

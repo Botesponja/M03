@@ -10,8 +10,10 @@ package pokedex;
  */
 public final class Dragon extends Pokemon {
 
-    public Dragon(String nom, int fuerza_combate, int life) {
-        super(nom, fuerza_combate, life);
+    public Dragon(String nom, int fuerza_combate) {
+        super(nom, fuerza_combate);
+        
+        this.life = 1000;
     }
 
     @Override
@@ -25,6 +27,20 @@ public final class Dragon extends Pokemon {
         }
         else
             return 0;
+    }
+
+    @Override
+    public void recibirAtaque(Pokemon pok) {
+        int ataque;
+        if (pok instanceof Dragon){
+          ataque = pok.ataque()*2;
+           
+        }
+        else{
+            ataque = pok.ataque();
+        }
+        System.out.println("Recibo ataque " + ataque);
+        this.life -=ataque;
     }
     
 }

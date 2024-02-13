@@ -12,15 +12,14 @@ import java.util.Random;
  */
 public abstract class Pokemon {
     //abstract no en permet fer objectes de la clase pokemon (new Pokemon)
-    private String nom;
+    protected String nom;
     private int fuerza_combate;
-    private int life;
+    protected int life;
     private boolean huida;
 
-    public Pokemon(String nom, int fuerza_combate, int life) {
+    public Pokemon(String nom, int fuerza_combate) {
         this.nom = nom;
         this.fuerza_combate = fuerza_combate;
-        this.life = life;
         huida = false;
     }
 
@@ -44,6 +43,10 @@ public abstract class Pokemon {
         this.life -= damage;
         
     }
+     public void recibirAtaque(Pokemon pok){
+        this.life -= pok.ataque();
+        
+    }
 
     public boolean escape(){
         Random rd = new Random();
@@ -56,9 +59,21 @@ public abstract class Pokemon {
         }
         return huida;
     }
+
+    public int getLife() {
+        return life;
+    }
     
     //Metodo OBLIGATORIO para todos los tipos de pokemon
     public abstract int ataque();
-    //son codigo porque cada tipo sera diferente
+    //sin codigo porque sera diferente para todos los tipos
+
+    @Override
+    public String toString() {
+        return "nom=" + nom + ", fuerza_combate=" + fuerza_combate + ", life=" + life + ", huida=" + huida;
+    }
+
+
+
 }
 
