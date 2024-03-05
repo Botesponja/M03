@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="clashroyalecofres">
+  <ClassDiagramComponents>
+    <Class name="CofreGenerico" package="clashroyalecofres" visibility="public" isAbstract="true" xPosition="387.0" yPosition="278.0">
+      <Fields>
+        <Field name="monedas" type="int" visibility="protected"/>
+        <Field name="lista" type="ArrayList&lt;Carta&gt;" visibility="protected"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="obrirCofre" returnType="void" visibility="protected" isAbstract="true"/>
+        <Method name="mostrarCofre" returnType="void" visibility="protected"/>
+        <Method name="getMonedas" returnType="int" visibility="public"/>
+        <Method name="getLista" returnType="ArrayList&lt;Carta&gt;" visibility="public"/>
+        <Method name="generarMonedas" returnType="int" visibility="protected">
+          <Argument type="int" name="min"/>
+          <Argument type="int" name="max"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="CofreArgent" package="clashroyalecofres" visibility="public" xPosition="20.0" yPosition="79.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="obrirCofre" returnType="void" visibility="protected"/>
+      </Methods>
+    </Class>
+    <Class name="Carta" package="clashroyalecofres" visibility="public" xPosition="405.0" yPosition="610.0">
+      <Fields>
+        <Field name="Name" type="NombreCarta" visibility="private"/>
+        <Field name="elixir" type="int" visibility="private"/>
+        <Field name="arena" type="int" visibility="private"/>
+        <Field name="num_cartas" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="num_cartas"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getName" returnType="NombreCarta" visibility="public"/>
+        <Method name="getElixir" returnType="int" visibility="public"/>
+        <Method name="setElixir" returnType="void" visibility="public">
+          <Argument type="int" name="elixir"/>
+        </Method>
+        <Method name="getArena" returnType="int" visibility="public"/>
+        <Method name="getNum_cartas" returnType="int" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+        <Method name="equals" returnType="boolean" visibility="public">
+          <Argument type="Object" name="obj"/>
+        </Method>
+        <Method name="asignarArena" returnType="void" visibility="private">
+          <Argument type="int" name="posicion"/>
+        </Method>
+        <Method name="asignarCartaAleatoria" returnType="int" visibility="private"/>
+      </Methods>
+    </Class>
+    <Class name="CofreCorones" package="clashroyalecofres" visibility="public" xPosition="431.0" yPosition="62.0">
+      <Fields>
+        <Field name="gemas" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="obrirCofre" returnType="void" visibility="protected"/>
+        <Method name="mostrarCofre" returnType="void" visibility="protected"/>
+      </Methods>
+    </Class>
+    <Class name="ClashRoyaleCofres" package="clashroyalecofres" visibility="public" xPosition="54.0" yPosition="831.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="CofreOr" package="clashroyalecofres" visibility="public" xPosition="796.0" yPosition="278.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="obrirCofre" returnType="void" visibility="protected"/>
+      </Methods>
+    </Class>
+    <Enum name="NombreCarta" package="clashroyalecofres" visibility="public" xPosition="782.0" yPosition="639.0">
+      <Literals>
+        <Literal name="MONTAPUERCOS"/>
+        <Literal name="PRINCESA"/>
+        <Literal name="PEKKA"/>
+        <Literal name="MINIPEKKA"/>
+        <Literal name="GIGANTE"/>
+        <Literal name="EJERCITO_ESQUELETOS"/>
+        <Literal name="MORTERO"/>
+        <Literal name="TESLA"/>
+        <Literal name="GLOBO_AEROSTATICO"/>
+        <Literal name="DUENDES"/>
+        <Literal name="PRINCIPE"/>
+        <Literal name="BARRIL_DUENDES"/>
+        <Literal name="CAVALLERO_NEGRO"/>
+      </Literals>
+    </Enum>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="lista" source="clashroyalecofres.CofreGenerico" target="clashroyalecofres.Carta" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Carta&gt;"/>
+    <IsRelation name="is" source="clashroyalecofres.CofreCorones" target="clashroyalecofres.CofreGenerico"/>
+    <IsRelation name="is" source="clashroyalecofres.CofreOr" target="clashroyalecofres.CofreGenerico"/>
+    <HasRelation name="Name" source="clashroyalecofres.Carta" target="clashroyalecofres.NombreCarta" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="clashroyalecofres.CofreArgent" target="clashroyalecofres.CofreGenerico"/>
+    <UseRelation source="clashroyalecofres.Carta" target="clashroyalecofres.NombreCarta" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="clashroyalecofres.CofreGenerico" target="clashroyalecofres.Carta" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
